@@ -12,7 +12,7 @@ const Home: NextPage = (props: any) => {
     <div className={styles.container}>
       <Head>
         <title>My blog - { }</title>
-        <meta name="description" content="A super cool blog!" />
+        <meta name="description" content="A super cool blog! By Marcos Orive" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
