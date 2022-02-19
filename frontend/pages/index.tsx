@@ -22,7 +22,7 @@ const Home: NextPage = (props: any) => {
         </h1>
 
         <p className={styles.description}>
-          Check my posts here
+          Check my posts below
         </p>
 
         <div className={styles.grid}>
