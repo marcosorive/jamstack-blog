@@ -28,7 +28,7 @@ const Home: NextPage = (props: any) => {
         <div className={styles.grid}>
           {
             props.articles.map((article: Article) => {
-              return <Link href={`/blog/${article.slug}`}>
+              return <Link href={`/blog/${article.slug}`} key={article.slug}>
                 <a className={styles.card}>
                   <h2>{article.title}</h2>
                   <p>{article.description}</p>
