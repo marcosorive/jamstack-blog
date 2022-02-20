@@ -16,7 +16,7 @@ const BlogArticlePage: NextPage = (props: any) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>My blog - {article.title}</title>
+                <title>{article.title} - A jamstack blog</title>
                 <meta name="description" content={article.description} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
